@@ -1,0 +1,95 @@
+
+.ai-generator-container {
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    height: 600px;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.title-container{
+    background-color: black;
+    border-radius: 20px;
+    max-width: 500px;
+    height: 60px;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    
+}
+.avatar {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 15px;
+    
+}
+.message-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    gap: 20px;
+}
+.text-container{
+    background-color: #ccc;
+    border-radius: 10px;
+    height: 65px;
+    padding:3px;
+    max-width: 300px;
+    
+    
+}
+.message{
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+
+.textarea {
+    margin-top: 15px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.ai-generator-button {
+    background-color: #007cba;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.ai-generator-button:hover {
+    background-color: #005a8e;
+}
+
+form{
+   padding:20px; 
+}
+
+.output textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: #f4f4f4;
+}
